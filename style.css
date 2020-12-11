@@ -1,0 +1,74 @@
+/* couleurs = 
+#E1E6FA
+#C4D7ED
+#ABC8E2
+#375D81
+#183152 */
+
+:root{
+    --bleu-clair: #E1E6FA;
+    --bleu-ciel: #C4D7ED;
+    --bleu-leger: #ABC8E2;
+    --bleu-petrol: #375D81;
+    --bleu-fonce: #183152;
+  }
+
+* {
+    margin: 0px;
+  }
+
+.bg-navbar {
+    background-color: var(--bleu-clair)
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: var(--bleu-fonce);
+    color: white;
+  }
+
+.header {
+    height: 500px;
+    background-image: url(destinations.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-background-1 {
+    height: 500px;
+    background-image: url(carousel_one.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-background-2 {
+    height: 500px;
+    background-image: url(carousel_two.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-background-3 {
+    height: 500px;
+    background-image: url(carousel_three.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-color {
+    background-color: var(--bleu-clair);
+}
