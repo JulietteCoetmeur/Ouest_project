@@ -1,10 +1,3 @@
-/* couleurs = 
-#E1E6FA
-#C4D7ED
-#ABC8E2
-#375D81
-#183152 */
-
 :root{
     --bleu-clair: #E1E6FA;
     --bleu-ciel: #C4D7ED;
@@ -20,14 +13,6 @@
 .bg-navbar {
     background-color: var(--bleu-clair)
 }
-
-footer {
-    bottom: 0;
-    width: 100%;
-    height: 200px;
-    background-color: var(--bleu-fonce);
-    color: white;
-  }
 
 .header {
     height: 500px;
@@ -71,4 +56,36 @@ footer {
 
 .btn-color {
     background-color: var(--bleu-clair);
+}
+
+/* footer*/
+footer a {
+    color: white;
+}
+
+footer a:hover{
+    color: var(--bleu-ciel);
+    text-decoration: none;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: var(--bleu-fonce);
+    color: white;
+  }
+
+/* Contact */
+.contact {
+    border: none;
+}
+
+.title-contact {
+    color: var(--bleu-petrol);
+}
+
+/* nav mobile */
+.nav-mobile {
+    color: var(--bleu-fonce);
 }
