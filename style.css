@@ -89,3 +89,23 @@ footer {
 .nav-mobile {
     color: var(--bleu-fonce);
 }
+
+@media screen and (max-width:768px){
+
+    .header {
+        height: 250px; 
+    }
+
+    .carousel-background-1 {
+        height: 250px;
+    }
+
+    .carousel-background-2 {
+        height: 250px;
+    }
+
+    .carousel-background-3 {
+        height: 250px;
+    }
+    
+}    
