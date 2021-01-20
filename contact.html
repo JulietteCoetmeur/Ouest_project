@@ -16,7 +16,8 @@
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-navbar">
         <div class="d-flex flex-grow-1">
             <span class="w-100 d-lg-none d-block">
-                <!-- hidden spacer to center brand on mobile --></span>
+                <!-- hidden spacer to center brand on mobile -->
+            </span>
             <a class="navbar-brand d-none d-lg-inline-block" href="index.html">
                 Cap à l'Ouest
             </a>
@@ -50,7 +51,8 @@
                 <div class="col-md-8">
                     <div class="card-body">
                         <h1 class="card-title title-contact">Vous avez une question ?</h1>
-                        <p class="card-text">Nous vous répondons sous 24h par email à l'adresse que vous avez renseigné.</p>
+                        <p class="card-text">Nous vous répondons sous 24h par email à l'adresse que vous avez renseigné.
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -62,38 +64,56 @@
 
     <div class="container">
         <div class="container">
-        <h2 class="text-center">Contactez-nous</h2>
-        <form>
-            <div class="form-group">
-                <label for="firstname">Prénom</label>
-                <input type="text" class="form-control" id="firstname">
-            </div>
-            <div class="form-group">
-                <label for="lastname">Nom</label>
-                <input type="text" class="form-control" id="lastname">
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email">
-            </div>
-            <div class="form-group">
-                <label for="subject">Sujet</label>
-                <select class="form-control" id="subject">
-                    <option>Je souhaite recevoir plus d'information</option>
-                    <option>Je souhaite réserver un séjour</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea class="form-control" id="message" rows="8"></textarea>
-            </div>
-            <div class="form-group text-center">
-                <button type="submit" class="btn btn-color my-3">Envoyer</button>
-            </div>
-        </form>
+            <h2 class="text-center">Contactez-nous</h2>
+            <form>
+                <div class="form-group">
+                    <label for="firstname">Prénom</label>
+                    <input type="text" class="form-control" id="firstname">
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Nom</label>
+                    <input type="text" class="form-control" id="lastname">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Sujet</label>
+                    <select class="form-control" id="subject">
+                        <option>Je souhaite recevoir plus d'information</option>
+                        <option>Je souhaite réserver un séjour</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="8"></textarea>
+                </div>
+                <div class="form-group text-center">
+                    <button type="button" class="btn btn-color my-3" data-toggle="modal" data-target="#contact">Envoyer</button>
+                </div>
+            </form>
+        </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Message envoyé ✉</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Merci pour votre message, nous vous répondrons dans les plus brefs délais.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-color" data-dismiss="modal">Retour</button>
+                </div>
+            </div>
+        </div>
     </div>
-
     <footer>
         <div class="container">
             <div class="row">
